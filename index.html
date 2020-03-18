@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+
+<!--<ul>
+  <li ng-repeat="x in myData | orderBy: 'Country'">
+    <p ng-if="$odd" style="color:blue">{{ $index+1 +", "+x.Name + ", " + x.Country }}</p>
+    <p ng-if="$even" style="color:blueviolet">{{$index+1 +", "+x.Name+" "+", "+x.Country}}</p>
+  </li>
+</ul>-->
+  <select ng-model="name" ng-option="x for x in myData"></select>
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+  $http.get("person.json").then(function (response) {
+      $scope.myData = response.data.records;
+  });
+});
+</script>
+
+</body>
+</html>
