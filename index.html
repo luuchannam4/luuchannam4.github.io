@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CV xin việc</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="cv.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+    <script src="cv.js"></script>
+  </head>
+  <body id="dau">
+    <a class="nut" onclick="scrollto('dau');">
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+    <header>
+      <div class="bao">
+        <div class="tren">
+          <h1>Lưu Chấn Nam</h1>
+        </div>
+        <div class="icons" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="duoi">
+          <ul>
+            <li class="dong" onclick="closeMenu()"><i class="fas fa-times"></i></li>
+            <li onclick="scrollto('dau');">Giới thiệu</li>
+            <li onclick="scrollto('ky-nang');">Kỹ năng</li>
+            <li onclick="scrollto('hoc-van');">Học vấn</li>
+            <li onclick="scrollto('chung-chi');">Chứng chỉ</li>
+            <li onclick="scrollto('gpa');">GPA</li>
+            <li onclick="scrollto('san-pham');">Java</li>
+            <li onclick="scrollto('lien-lac');">Liên hệ</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="gioi-thieu">
+            <div class="tren xanh">
+              <h1 class="chuto">Giới thiệu
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Đôi điều về bản thân tôi</small>
+            </div>
+            <div class="duoi">
+              <div class="to">
+                <div class="anh">
+                  <img src="channam.jpg" alt="">
+                </div>
+                <div class="chu">
+                  <h1>"Tôi tên là Lưu Chấn Nam. Năm nay tôi 20 tuổi sinh ra ở Hà Nội. Tôi đang theo học năm 3 khoa công nghệ thông tin Học viện Công nghệ Bưu chính Viễn thông."</h1>
+                  <p><b>Điểm mạnh:</b> Thái độ làm việc nghiêm túc, cần cù, chăm chỉ tiếp thu cái mới </p>
+                  <p><b>Điểm yếu:</b> Khả năng thuyết trình trước đám đông nhưng tôi hứa sẽ cải thiện điều này trong tương lai</p>
+                  <p><b>Nếu được nhận vào làm việc:</b> Tôi tin rằng mình phù hợp và đáp ứng đủ yếu cầu trong bản mô tả</p>
+                </div>
+              </div>
+              <div class="be">
+                <div class="pt-1">
+                  <i class="fas fa-birthday-cake"></i>
+                  <h4>Ngày sinh</h4>
+                  <p>19/07/1999</p>
+                </div>
+                <div class="pt-1">
+                  <i class="fas fa-home"></i>
+                  <h4>Địa chỉ</h4>
+                  <p>Đội Cấn, Ba Đình, Hà Nội</p>
+                </div>
+                <div class="pt-1">
+                  <i class="fas fa-headphones"></i>
+                  <h4>Điện thoại</h4>
+                  <p>0835673358</p>
+                </div>
+                <div class="pt-1">
+                  <i class="fas fa-envelope"></i>
+                  <h4>Email</h4>
+                  <p>naml45889@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Tôi rất tự tin vào kỹ năng của bản thân."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="ky-nang">
+            <div class="xanh">
+              <h1 class="chuto">Kỹ năng
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Sau đây là một số kỹ năng của tôi</small>
+            </div>
+            <div class="duoi">
+              <div class="pt-1">
+                <h4>Java</h4>
+                <p>Đang trong quá trình học để làm Backend và trở thành lập trình viên FullStack</p>
+                <br><br>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+             <div class="pt-1">
+               <h4>Cấu trúc dữ liệu và giải thuật</h4>
+               <p>Nắm chắc kiến thức về giải thuật tham lam, chia để trị, qui hoạch động, đệ qui, tìm kiếm, sắp xếp ...</p>
+               <p>cấu trúc dữ liệu: mảng, danh sách liên kết, ngăn xếp, hàng đợi ...</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+             </div> 
+             <div class="pt-1">
+               <h4>MySQL</h4>
+               <p>Đã sử dụng thành thạo các câu lệnh</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>Git/Github</h4>
+               <p>Biết cách quản lý mã nguồn và up lên server</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Tôi tự đánh giá bản thân có khả năng trong việc học."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="hoc-van">
+            <div class="xanh">
+              <h1 class="chuto">Học vấn
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Quá trình học tập của tôi : </small>
+            </div>
+            <div class="duoi">
+              <div class="trai">
+                <h4>Toàn bộ quá trình học tập</h4>
+                <p>Tôi bắt đầu quá trình học tập của mình năm 2005 cho đến nay tại Hà Nội. Tôi tự đánh giá mình là một học sinh khá, chăm chỉ và ham học hỏi.</p>
+                <p>Thành tích học tập trong 12 năm học đã giúp tôi vào được trường đại học mà mình mong muốn</p>
+              </div>
+              <div class="phai">
+                <div class="pt-1">
+                  <div class="tieude">
+                    Trường tiểu học Đại Yên
+                    <span> - </span>
+                    <span>từ 2005 đến 2010</span>
+                  </div>
+                  <div class="noidung">
+                    <p>Trong quá trình 5 năm học tiểu học tôi đều đạt danh hiệu học sinh giỏi. Đây cũng chính là bước đệm để tôi có những phấn đấu, nỗ lực về học tập trong tương lai</p>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <div class="tieude">
+                    THCS Nguyễn Trường Tộ
+                    <span> - </span>
+                    <span>từ 2010 đến 2014</span>
+                  </div>
+                  <div class="noidung">
+                    <p>4 năm học cấp 2 tôi đều đạt học sinh giỏi và tham gia vào đội tuyển lý của trường. Những năm cấp 2 tôi đã cố gắng học tập để thi đỗ trường cấp 3 mà mình mong muốn</p>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <div class="tieude">
+                    THPT Phan Đình Phùng
+                    <span> - </span>
+                    <span>từ 2014 đến 2017</span>
+                  </div>
+                  <div class="noidung">
+                    <p>Những ngày tháng học cấp 3 tôi phấn đấu học tập để vào được trường đại học mà mình mong muốn và đúng chuyên ngành mà mình yêu thích</p>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <div class="tieude">
+                    Học viện Công nghệ Bưu chính Viễn thông
+                    <span> - </span>
+                    <span>từ 2017 đến nay</span>
+                  </div>
+                  <div class="noidung">
+                    <p>Trong quá trình học tại học viện tôi đã tích lũy được rất nhiều kiến thức về chuyên ngành và những kỹ năng mềm khác để chuẩn bị cho công việc trong tương lai</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Chứng chỉ về ngoại ngữ của tôi."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="chung-chi">
+            <div class="xanh">
+              <h1 class="chuto">Chứng chỉ
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Chứng chỉ tiếng anh toeic</small>
+            </div>
+            <div class="duoi">
+              <div class="trai">
+                <h4>Bên đây là bảng điểm toeic của tôi : </h4>
+                <p>Tôi rất tự tin với khả năng Tiếng Anh của mình. Tôi có thể nghe, đọc thành thạo tài liệu bằng Tiếng Anh.</p>
+              </div>
+              <div class="phai anh-dep">
+                <img src="bang-toiec.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Điểm số là thước đo chính xác nhất về quá trình học tập."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="gpa">
+            <div class="xanh">
+              <h1 class="chuto">GPA
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Điểm số từ năm nhất đến hết kì 1 năm 3</small>
+            </div>
+            <div class="duoi">
+              <div class="trai">
+                <h4>Bên đây là bảng điểm của tôi : </h4>
+                <p>Tôi luôn cố gắng để đạt kết quả cao trong các môn học đặc biệt là các môn chuyên ngành.</p>
+              </div>
+              <div class="phai anh-dep">
+                <img src="bangdierm.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Sau đây là kiến thức về java của tôi."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="san-pham">
+            <div class="xanh">
+              <h1 class="chuto">Java
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Kiến thức về Java</small>
+            </div>
+            <div class="duoi">
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>Java cơ bản</h5>
+                  <p>Đã thành thạo về phần này: các kiểu dữ liệu, câu lệnh rẽ nhánh, vòng lặp, regex ...</p>
+                </div>
+              </div>
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>Hướng đối tượng OOP</h5>
+                  <p>Đã thành thạo về phần này: nạp chồng, Constructor, kế thừa, đa hình, abstract class và Interface, ...</p>
+                </div>
+              </div>
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>File và I/O trong Java</h5>
+                  <p>ObjectInputStream, ObjectOutputStream, DataInputStream, DataOutputStream, FileReader, FileWriter, BufferedWriter, BufferedReader, ...</p>
+                </div>
+              </div>
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>Xử lý ngoại lệ</h5>
+                  <p>Exception, khối try-catch, finally, từ khóa throw, throws, ...</p>
+                </div>
+              </div>
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>Collection</h5>
+                  <p>Collection, LinkedList, ArrayList, Comparator, ...</p>
+                </div>
+              </div>
+              <div class="anh1 anh-dep">
+                <div class="chu">
+                  <h5>Khác</h5>
+                  <p>Generic, chuyển đổi giữa các kiểu dữ liệu, Date & Time, ...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="khoi-tg">
+        <div class="bao">
+          <h1>"Dưới đây là thông tin liên lạc của tôi."</h1>
+        </div>
+      </section>
+      <section class="khoi-1">
+        <div class="bao">
+          <div id="lien-lac">
+            <div class="xanh">
+              <h1 class="chuto">Liên lạc
+                <span class="arrow"></span>
+              </h1>
+              <small class="chunho">Các thông tin cần thiết</small>
+            </div>
+            <div class="duoi">
+              <div class="phan-tu">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/profile.php?id=100007465305203" target="_blank" tittle="facebook">
+                      <i class="fab fa-facebook-f"></i>
+                      <p>Chấn Nam</p>
+                    </a>
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope"></i>
+                    <p>naml45889@gmail.com</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-phone"></i>
+                    <p>0835673358</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9493986949647!2d105.82631751440749!3d21.034710592952262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0b1dc7011b%3A0x84532062de33ccf!2zMTE1IMSQ4buZaSBD4bqlbiwgTmfhu41jIEjhu5MsIEJhIMSQw6xuaCwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1583589968238!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <h5>
+        Xin Cảm Ơn!
+      </h5>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+  </body>
+</html>

@@ -1,0 +1,780 @@
+:root{
+    --mauxanh: #08c;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    display: block;
+    background-image: url("anhbia.png");
+}
+header .bao {
+    display: flex;
+    padding: 0px 60px;
+    height: 100%;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    align-items: center;
+    transition: 0.5s;
+    border-bottom: 1px solid rgb(195, 189, 189);
+}
+
+header .bao .tren h1 {
+    color: var(--mauxanh);
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: Times New Roman,Times,serif;
+}
+
+header .bao .duoi ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    color: rgba(102,102,102,0.85);
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+header .bao .duoi {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+}
+
+header .bao .duoi ul li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+header .bao .duoi ul li:hover {
+    color: var(--mauxanh);
+}
+
+header .bao .icons{
+    display: none;
+}
+
+.main .khoi-1 .bao .gioi-thieu .tren h1 {
+    color: var(--mauxanh);
+}
+
+.main .khoi-1 .bao .gioi-thieu .tren h1 {
+    color: var(--mauxaxnh);
+}
+
+.main .khoi-1 {
+    padding: 70px 0;
+}
+
+.main .khoi-1 .bao {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chuto {
+    color: #fff;
+    background-color: var(--mauxanh);
+    padding-top: 9px;
+    padding-right: 30px;
+    padding-left: 130px;
+    padding-bottom: 9px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.xanh {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.chunho {
+    margin-left: 4%;
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(102,102,102,0.85);
+    font-weight: 700;
+    height: fit-content;
+}
+.arrow{
+    background-image: url("arrow_title.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: -35px;
+    width: 37px;
+    height: 48px;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to .anh {
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to .anh img {
+    padding: 5px;
+    border: solid 1px #cdcdcd;
+    height: 275px;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to .chu {
+    width: 74%;
+    margin-left: 2.5%;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to .chu h1 {
+    line-height: 40px;
+    font-style: italic;
+    font-size: 30px;
+    color: var(--mauxanh);
+    margin: 10px 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to .chu p {
+    margin-bottom: 20px;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .to {
+    display: flex;
+    align-items: center;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .be {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .be .pt-1 {
+    padding: 10px 20px !important;
+    background-color: #f4f4f4;
+    border: 1px solid #cdcdcd;
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .be .pt-1 i {
+    margin-top: 8px;
+    height: fit-content;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .be .pt-1 h4 {
+    padding-left: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.main .khoi-1 .bao #gioi-thieu .duoi .be .pt-1 p {
+    margin-left: 35px;
+    margin-bottom: 0;
+    color: var(--mauxanh);
+    font-style: italic;
+    height: fit-content;
+}
+
+.main .khoi-tg {
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.main .khoi-tg .bao {max-width: 1170px;margin-left: auto;margin-right: auto;}
+
+.khoi-tg .bao h1 {
+    color: var(--mauxanh);
+    text-align: center;
+    line-height: 45px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+}
+.main .khoi-1 .bao #ky-nang .duoi .pt-1 h4 {
+    padding-left: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.main .khoi-1 .bao #ky-nang .duoi .pt-1 .progress {
+    width: 100%;
+    background-color: rgba(224, 224, 224, 0.85);
+    height: 35px;
+    border-radius: 0px;
+}
+
+.khoi-1 .bao #ky-nang .duoi .pt-1 .progress .progress-bar {background-color: var(--mauxanh);}
+
+.main .khoi-1 .bao #ky-nang .duoi .pt-1 {
+    width:  45%;
+}
+
+.main .khoi-1 .bao #ky-nang .duoi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .khoi-1 .bao #ky-nang .duoi .pt-1 p {
+    margin-left: 20px;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi .trai h4 {
+    font-weight: 700;
+    line-height: 30px;
+    padding: 5px 0 15px;
+    font-size: 20px;
+    color: #232323;
+    margin: 10px 0;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi .trai p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi .phai {
+    border-left: 1px solid #cdcdcd;
+    padding: 0 35px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi .phai .pt-1 .tieude {
+    color: var(--mauxanh);
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #cdcdcd;
+    background-color: #F0F0EF;
+    background-image: url("toggle.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -69px;
+}
+
+.xuong{
+    background-position-y: 14px !important;
+}
+.main .khoi-1 .bao #hoc-van .duoi .phai .pt-1 .tieude span {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi .phai .pt-1 .noidung {
+    padding-bottom: 20px;
+}
+
+.main .khoi-1 .bao #hoc-van .duoi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .khoi-1 .bao #gpa .duoi {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main .khoi-1 .bao #gpa .duoi .trai h4{
+    font-weight: 700;
+    line-height: 30px;
+    padding: 5px 0 15px;
+    font-size: 20px;
+    color: #232323;
+    margin: 10px 0;
+}
+
+.main .khoi-1 .bao #gpa .duoi .trai p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+}
+.main .khoi-1 .bao #gpa .duoi .phai img {
+    height: auto;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.main .khoi-1 .bao #gpa .duoi .phai {
+    width: 48%;
+    overflow: hidden;
+    height: 300px;
+}
+
+.main .khoi-1 .bao #gpa .duoi .phai:hover {
+    overflow: hidden;
+}
+
+.main .khoi-1 .bao #gpa .duoi .phai:hover img {
+    transform: scale(1.1);
+}
+
+.main .khoi-1 .bao #gpa .duoi .trai {
+    width: 48%;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .trai {
+    width: 48%;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .phai {
+    width: 48%;
+    overflow: hidden;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .phai img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .trai h4 {
+    font-weight: 700;
+    line-height: 30px;
+    padding: 5px 0 15px;
+    font-size: 20px;
+    color: #232323;
+    margin: 10px 0;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .trai p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .phai:hover {
+    overflow: hidden;
+}
+
+.main .khoi-1 .bao #chung-chi .duoi .phai:hover img {
+    transform: scale(1.1);
+}
+.anh-dep {
+    background-color: #fff;
+    box-shadow: 0 -5px 10px 5px rgba(0,0,0,0.16), 0 5px 10px 5px rgba(0,0,0,0.23);
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
+.main .khoi-1 .bao #san-pham .duoi {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 {
+    width: 32%;
+    height: 200px;
+    padding: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .a {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .a img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .a .den {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .chu h5 {
+    height: 40px;
+    line-height: 20px;
+    display: block;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #232323;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .chu {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    text-align: left;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    width: 100%;
+    font-size: .9em;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .chu p {
+    margin-top: .1em;
+    margin-bottom: .1em;
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+}
+
+.main .khoi-1 .bao #san-pham .duoi .anh1 .a:hover a img {
+    transform: scale(1.1);
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li {
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li a i {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    background-color: var(--mauxanh);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li i {margin-left: 10px;margin-right: 10px;height: fit-content;background-color: var(--mauxanh);padding: 10px;color: white;border-radius: 5px;}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li a p {
+    height: fit-content;
+    color: #555;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu ul li p {
+    color: #555;
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .map {
+    width: 48%;
+    height: 300px;
+    padding: 5px;
+    border: 2px solid #fff;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .phan-tu {
+    width: 48%;
+    height: fit-content;
+}
+
+.main .khoi-1 .bao #lien-lac .duoi .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer h5 {
+    text-align: center;
+    border-top: 1px solid #cdcdcd;
+    padding: 20px 0;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+.dichuyen{
+    position: fixed;
+    z-index: 10;
+    background-color: var(--mauxanh);
+}
+
+.nut{
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    transform: translateY(0);
+    margin-left: .12em;
+    margin-right: .12em;
+    min-width: 2.5em;
+    display: inline-block;
+    border: 2px solid currentColor;
+    background-color: transparent;
+    line-height: 2.19em;
+    color: currentColor;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: .97em;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    min-height: 2.5em;
+    opacity: 1;
+    pointer-events: inherit;
+    transition: 0.5s;
+}
+
+.nut:hover{
+    background-color: var(--mauxanh);
+}
+
+.nut i{
+    font-size: 0.8em;
+    top: -1.5px;
+    line-height: 2.5;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.nut:hover i{
+    color: #fff;
+}
+
+.menuRes{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #111;
+    display: block !important;
+    z-index: 10;
+}
+.menuRes li{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block !important;
+    transition: 0.3s;
+    color:rgb(255, 255, 255) !important;
+}
+
+.dong{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.menuRes li:hover{
+    color: rgb(199, 197, 197) !important;
+}
+
+@media (max-width: 1080px){
+    header .bao .icons{
+        display: block;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        background-color: var(--mauxanh);
+        color: white;
+        border-radius: 8px;
+        position: absolute;
+        left: 90%;
+        cursor: pointer;
+    }   
+    header .bao .icons i{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 12px;
+    }
+    header .bao .duoi ul li{
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+    .chuto{
+        padding-right: 0px;
+        padding-left: 25px;
+    }
+    .chunho{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to {
+        display: block;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to .anh {
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to .anh img {
+        padding: 5px;
+        border: solid 1px #cdcdcd;
+        height: 275px;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to .chu {
+        width: 100%;
+        margin:0;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to .chu h1{
+        width: 95%;
+        font-size: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .to .chu p {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .be{
+        display: block;
+    }
+    .main .khoi-1 .bao #gioi-thieu .duoi .be .pt-1{
+        width: 90%;
+        margin-top: 15px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #ky-nang .duoi {
+        display: block;
+        justify-content: space-between;
+    }
+    .main .khoi-1 .bao #ky-nang .duoi .pt-1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #hoc-van .duoi {
+        display: block;
+    }
+    .main .khoi-1 .bao #hoc-van .duoi .trai {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #hoc-van .duoi .phai {
+        margin: 0;
+        border: none;
+    }
+    .main .khoi-1 .bao #chung-chi .duoi {
+        display: block;
+    }
+    .main .khoi-1 .bao #chung-chi .duoi .trai {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #chung-chi .duoi .phai {
+        width: 90%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #gpa .duoi {
+        display: block;
+        width: 100%;
+    }
+    .main .khoi-1 .bao #gpa .duoi .trai {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #gpa .duoi .phai {
+        width: 90%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #san-pham .duoi {
+        display: block;
+        justify-content: space-between;
+    }
+    .main .khoi-1 .bao #san-pham .duoi .anh1 {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 35px;
+    }
+    .main .khoi-1 .bao #lien-lac .duoi {
+        display: block;
+    }
+    .main .khoi-1 .bao #lien-lac .duoi .phan-tu {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .khoi-1 .bao #lien-lac .duoi .phan-tu ul {
+        display: flex;
+        width: fit-content;
+    }
+    .main .khoi-1 .bao #lien-lac .duoi .map {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
