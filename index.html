@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CV xin việc</title>
+    <title>CV for Internship</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <!--https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js-->
@@ -19,6 +19,16 @@
     <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
     <script src="cv.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161862267-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161862267-1');
+  </script>
+
   </head>
   <body id="dau">
     <a class="nut" onclick="scrollto('dau');">
@@ -35,13 +45,13 @@
         <div class="duoi">
           <ul>
             <li class="dong" onclick="closeMenu()"><i class="fas fa-times"></i></li>
-            <li onclick="scrollto('dau');">Giới thiệu</li>
-            <li onclick="scrollto('ky-nang');">Kỹ năng</li>
-            <li onclick="scrollto('hoc-van');">Học vấn</li>
-            <li onclick="scrollto('chung-chi');">Chứng chỉ</li>
+            <li onclick="scrollto('dau');">About me</li>
+            <li onclick="scrollto('ky-nang');">Skill</li>
+            <li onclick="scrollto('hoc-van');">Education</li>
+            <li onclick="scrollto('chung-chi');">Certificate</li>
             <li onclick="scrollto('gpa');">GPA</li>
-            <li onclick="scrollto('san-pham');">Java</li>
-            <li onclick="scrollto('lien-lac');">Liên hệ</li>
+            <li onclick="scrollto('san-pham');">Project</li>
+            <li onclick="scrollto('lien-lac');">Contact</li>
           </ul>
         </div>
       </div>
@@ -51,10 +61,10 @@
         <div class="bao">
           <div id="gioi-thieu">
             <div class="tren xanh">
-              <h1 class="chuto">Giới thiệu
+              <h1 class="chuto">About me
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Đôi điều về bản thân tôi</small>
+              <small class="chunho">Something about me</small>
             </div>
             <div class="duoi">
               <div class="to">
@@ -62,26 +72,27 @@
                   <img src="channam.jpg" alt="">
                 </div>
                 <div class="chu">
-                  <h1>"Tôi tên là Lưu Chấn Nam. Năm nay tôi 20 tuổi sinh ra ở Hà Nội. Tôi đang theo học năm 3 khoa công nghệ thông tin Học viện Công nghệ Bưu chính Viễn thông."</h1>
-                  <p><b>Điểm mạnh:</b> Thái độ làm việc nghiêm túc, cần cù, chăm chỉ tiếp thu cái mới </p>
-                  <p><b>Điểm yếu:</b> Khả năng thuyết trình trước đám đông nhưng tôi hứa sẽ cải thiện điều này trong tương lai</p>
-                  <p><b>Nếu được nhận vào làm việc:</b> Tôi tin rằng mình phù hợp và đáp ứng đủ yếu cầu trong bản mô tả</p>
+                  <h1>"My name is Lưu Chấn Nam. I'm 21 years old. I was born Ha Noi. I’m in my fourth year at Posts and Telecommunications Institute of Technology University ."</h1>
+                  <p><b>Strengths:</b> I'm a hard worker and I like to take on a variety of challenges. </p>
+                  <p><b>Weaknesses:</b> Khả năng thuyết trình trước đám đông nhưng tôi hứa sẽ cải thiện điều này trong tương lai</p>
+                  <p><b>I am convinced that my experience and skills make me an excellent candidate for this position.
+                  </p>
                 </div>
               </div>
               <div class="be">
                 <div class="pt-1">
                   <i class="fas fa-birthday-cake"></i>
-                  <h4>Ngày sinh</h4>
+                  <h4>Date Of Birth</h4>
                   <p>19/07/1999</p>
                 </div>
                 <div class="pt-1">
                   <i class="fas fa-home"></i>
-                  <h4>Địa chỉ</h4>
+                  <h4>Address</h4>
                   <p>Đội Cấn, Ba Đình, Hà Nội</p>
                 </div>
                 <div class="pt-1">
                   <i class="fas fa-headphones"></i>
-                  <h4>Điện thoại</h4>
+                  <h4>Phone Number</h4>
                   <p>0835673358</p>
                 </div>
                 <div class="pt-1">
@@ -96,47 +107,73 @@
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Tôi rất tự tin vào kỹ năng của bản thân."</h1>
+          <h1>"I am very confident in my abilities."</h1>
         </div>
       </section>
       <section class="khoi-1">
         <div class="bao">
           <div id="ky-nang">
             <div class="xanh">
-              <h1 class="chuto">Kỹ năng
+              <h1 class="chuto">Skill
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Sau đây là một số kỹ năng của tôi</small>
+              <small class="chunho">Area Of Expertise</small>
             </div>
             <div class="duoi">
-              <div class="pt-1">
-                <h4>Java</h4>
-                <p>Đang trong quá trình học để làm Backend và trở thành lập trình viên FullStack</p>
-                <br><br>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
              <div class="pt-1">
-               <h4>Cấu trúc dữ liệu và giải thuật</h4>
-               <p>Nắm chắc kiến thức về giải thuật tham lam, chia để trị, qui hoạch động, đệ qui, tìm kiếm, sắp xếp ...</p>
-               <p>cấu trúc dữ liệu: mảng, danh sách liên kết, ngăn xếp, hàng đợi ...</p>
+               <h4>HTML, CSS & JAVASCRIPT</h4>
+               <p>I have html and css projects</p>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
              </div> 
              <div class="pt-1">
-               <h4>MySQL</h4>
-               <p>Đã sử dụng thành thạo các câu lệnh</p>
+               <h4>Docker</h4>
+               <p>To run, setup application in my server chat</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>CI/CD</h4>
+               <p>Automatically build, test, deploy project</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>MySQL/Mongodb</h4>
+               <p>I also use kafka in my server chat project</p>
                <div class="progress">
                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                </div>
              </div>
              <div class="pt-1">
-               <h4>Git/Github</h4>
-               <p>Biết cách quản lý mã nguồn và up lên server</p>
+               <h4>Linux</h4>
+               <p>I am using ubuntu instead of window in my company</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>Nodejs/Java OOP/C++</h4>
+               <p>I'm have built server chat with nodejs and socket.io</p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>Git/Gitlab</h4>
+               <p>Push, pull, merge, checkout,...</p>
                <div class="progress">
                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+             </div>
+             <div class="pt-1">
+               <h4>ExpressJS</h4>
+               <p>Node Framework, i'am learning Spring Framework too </p>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                </div>
              </div>
             </div>
@@ -145,63 +182,58 @@
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Tôi tự đánh giá bản thân có khả năng trong việc học."</h1>
+          <h1>"Study, study more, study forever."</h1>
         </div>
       </section>
       <section class="khoi-1">
         <div class="bao">
           <div id="hoc-van">
             <div class="xanh">
-              <h1 class="chuto">Học vấn
+              <h1 class="chuto">Education
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Quá trình học tập của tôi : </small>
+              <small class="chunho">Educational background : </small>
             </div>
             <div class="duoi">
               <div class="trai">
-                <h4>Toàn bộ quá trình học tập</h4>
-                <p>Tôi bắt đầu quá trình học tập của mình năm 2005 cho đến nay tại Hà Nội. Tôi tự đánh giá mình là một học sinh khá, chăm chỉ và ham học hỏi.</p>
-                <p>Thành tích học tập trong 12 năm học đã giúp tôi vào được trường đại học mà mình mong muốn</p>
+                <h4 style="text-align: center;">2005 - now</h4>
+                <p>I consider myself as a good student and hard-working guy.</p>
+                <p>I study information technology in my university</p>
               </div>
               <div class="phai">
                 <div class="pt-1">
                   <div class="tieude">
-                    Trường tiểu học Đại Yên
+                    Đại Yên primary school
                     <span> - </span>
-                    <span>từ 2005 đến 2010</span>
-                  </div>
-                  <div class="noidung">
-                    <p>Trong quá trình 5 năm học tiểu học tôi đều đạt danh hiệu học sinh giỏi. Đây cũng chính là bước đệm để tôi có những phấn đấu, nỗ lực về học tập trong tương lai</p>
+                    <span>2005 - 2010</span>
                   </div>
                 </div>
                 <div class="pt-1">
                   <div class="tieude">
-                    THCS Nguyễn Trường Tộ
+                    Nguyễn Trường Tộ junior high school
                     <span> - </span>
-                    <span>từ 2010 đến 2014</span>
-                  </div>
-                  <div class="noidung">
-                    <p>4 năm học cấp 2 tôi đều đạt học sinh giỏi và tham gia vào đội tuyển lý của trường. Những năm cấp 2 tôi đã cố gắng học tập để thi đỗ trường cấp 3 mà mình mong muốn</p>
+                    <span>2010 - 2014</span>
                   </div>
                 </div>
                 <div class="pt-1">
                   <div class="tieude">
-                    THPT Phan Đình Phùng
+                    Phan Đình Phùng high school
                     <span> - </span>
-                    <span>từ 2014 đến 2017</span>
-                  </div>
-                  <div class="noidung">
-                    <p>Những ngày tháng học cấp 3 tôi phấn đấu học tập để vào được trường đại học mà mình mong muốn và đúng chuyên ngành mà mình yêu thích</p>
+                    <span>2014 - 2017</span>
                   </div>
                 </div>
                 <div class="pt-1">
                   <div class="tieude">
-                    Học viện Công nghệ Bưu chính Viễn thông
+                    PTIT University
                     <span> - </span>
-                    <span>từ 2017 đến nay</span>
+                    <span>2017 - now</span>
                   </div>
-                  <div class="noidung">
-                    <p>Trong quá trình học tại học viện tôi đã tích lũy được rất nhiều kiến thức về chuyên ngành và những kỹ năng mềm khác để chuẩn bị cho công việc trong tương lai</p>
+                </div>
+                <div class="pt-1">
+                  <div class="tieude">
+                    Zinza technology
+                    <span> - </span>
+                    <span>4/2020 - now</span>
                   </div>
                 </div>
               </div>
@@ -211,22 +243,22 @@
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Chứng chỉ về ngoại ngữ của tôi."</h1>
+          <h1>"My English certificate."</h1>
         </div>
       </section>
       <section class="khoi-1">
         <div class="bao">
           <div id="chung-chi">
             <div class="xanh">
-              <h1 class="chuto">Chứng chỉ
+              <h1 class="chuto">Certificate
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Chứng chỉ tiếng anh toeic</small>
+              <small class="chunho">Toeic</small>
             </div>
             <div class="duoi">
               <div class="trai">
-                <h4>Bên đây là bảng điểm toeic của tôi : </h4>
-                <p>Tôi rất tự tin với khả năng Tiếng Anh của mình. Tôi có thể nghe, đọc thành thạo tài liệu bằng Tiếng Anh.</p>
+                <h4>You can see my transcript on the right</h4>
+                <p>I am very confident in my English skills.</p>
               </div>
               <div class="phai anh-dep">
                 <img src="bang-toiec.jpg" alt="">
@@ -237,7 +269,7 @@
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Điểm số là thước đo chính xác nhất về quá trình học tập."</h1>
+          <h1>"My GPA scores"</h1>
         </div>
       </section>
       <section class="khoi-1">
@@ -247,12 +279,12 @@
               <h1 class="chuto">GPA
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Điểm số từ năm nhất đến hết kì 1 năm 3</small>
+              <small class="chunho">GPA scores</small>
             </div>
             <div class="duoi">
               <div class="trai">
-                <h4>Bên đây là bảng điểm của tôi : </h4>
-                <p>Tôi luôn cố gắng để đạt kết quả cao trong các môn học đặc biệt là các môn chuyên ngành.</p>
+                <h4>You can see my transcript on the right</h4>
+                <p>I always try to achieve high results in all subjects</p>
               </div>
               <div class="phai anh-dep">
                 <img src="bangdierm.jpg" alt="">
@@ -263,72 +295,75 @@
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Sau đây là kiến thức về java của tôi."</h1>
+          <h1>"I have some project to show you."</h1>
         </div>
       </section>
       <section class="khoi-1">
         <div class="bao">
           <div id="san-pham">
             <div class="xanh">
-              <h1 class="chuto">Java
+              <h1 class="chuto">Project
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Kiến thức về Java</small>
+              <small class="chunho">For details, click the title</small>
             </div>
             <div class="duoi">
               <div class="anh1 anh-dep">
+                <div class="a">
+                  <a href="https://luuchannam.github.io/" target="_blank" tittle="luuchannam.github.io">
+                    <img src="restaurant.jpg" alt="">
+                    <div class="den"></div>
+                  </a>
+                </div>
                 <div class="chu">
-                  <h5>Java cơ bản</h5>
-                  <p>Đã thành thạo về phần này: các kiểu dữ liệu, câu lệnh rẽ nhánh, vòng lặp, regex ...</p>
+                  <h5>Restaurant</h5>
+                  <p>HTML5, CSS, JavaScript, Jquery, Bootstrap</p>
                 </div>
               </div>
               <div class="anh1 anh-dep">
+                <div class="a">
+                  <a href="https://luuchannam2.github.io/" target="_blank" tittle="luuchannam2.github.io">
+                    <img src="haphat.jpg" alt="">
+                    <div class="den"></div>
+                  </a>
+                </div>
                 <div class="chu">
-                  <h5>Hướng đối tượng OOP</h5>
-                  <p>Đã thành thạo về phần này: nạp chồng, Constructor, kế thừa, đa hình, abstract class và Interface, ...</p>
+                  <h5>Camera Hà Phát</h5>
+                  <p>HTML, CSS</p>
                 </div>
               </div>
               <div class="anh1 anh-dep">
+                <div class="a">
+                  <a href="https://luuchannam1.github.io/" target="_blank" tittle="luuchannam1.github.io">
+                    <img src="telling.jpg" alt="">
+                    <div class="den"></div>
+                  </a>
+                </div>
                 <div class="chu">
-                  <h5>File và I/O trong Java</h5>
-                  <p>ObjectInputStream, ObjectOutputStream, DataInputStream, DataOutputStream, FileReader, FileWriter, BufferedWriter, BufferedReader, ...</p>
+                  <h5>Telling</h5>
+                  <p>HTML, CSS</p>
                 </div>
               </div>
-              <div class="anh1 anh-dep">
-                <div class="chu">
-                  <h5>Xử lý ngoại lệ</h5>
-                  <p>Exception, khối try-catch, finally, từ khóa throw, throws, ...</p>
-                </div>
-              </div>
-              <div class="anh1 anh-dep">
-                <div class="chu">
-                  <h5>Collection</h5>
-                  <p>Collection, LinkedList, ArrayList, Comparator, ...</p>
-                </div>
-              </div>
-              <div class="anh1 anh-dep">
-                <div class="chu">
-                  <h5>Khác</h5>
-                  <p>Generic, chuyển đổi giữa các kiểu dữ liệu, Date & Time, ...</p>
-                </div>
-              </div>
+            </div>
+            <div class="link" style="text-align: center; padding-top: 50px;">
+              <a style="color: rgba(102,102,102,0.85);" href="https://lab.zinza.com.vn/Medical/chat" target="_blank"><h3>Click to this, branch development</h3>Server chat nodejs,expressjs,socket.io,mongodb,kafka,docker</a>
             </div>
           </div>
         </div>
       </section>
       <section class="khoi-tg">
         <div class="bao">
-          <h1>"Dưới đây là thông tin liên lạc của tôi."</h1>
+          <h1>"Contact."</h1>
         </div>
       </section>
       <section class="khoi-1">
         <div class="bao">
           <div id="lien-lac">
             <div class="xanh">
-              <h1 class="chuto">Liên lạc
+              <h1 class="chuto">Contact
                 <span class="arrow"></span>
               </h1>
-              <small class="chunho">Các thông tin cần thiết</small>
+              <small class="chunho">Contact information</small>
             </div>
             <div class="duoi">
               <div class="phan-tu">
@@ -359,7 +394,7 @@
     </div>
     <footer>
       <h5>
-        Xin Cảm Ơn!
+        Thank you!
       </h5>
     </footer>
     <!-- Optional JavaScript -->
