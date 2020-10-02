@@ -1,14 +1,14 @@
 $(document).ready(function(){
-    $(".pt-1 .noidung").hide();
-    $(".pt-1 .tieude").addClass("xuong");
-    $(".pt-1:nth-child(1) .noidung").show();
-    $(".pt-1:nth-child(1) .tieude").removeClass("xuong");
-    $(".pt-1 .tieude").click(function(){
-      $(".pt-1 .noidung").hide();
-      $(".pt-1 .tieude").addClass("xuong");
-      $(this).removeClass("xuong");
-      $(this).next().toggle();
-    });
+    // $(".pt-1 .noidung").hide();
+    // $(".pt-1 .tieude").addClass("xuong");
+    // $(".pt-1:nth-child(1) .noidung").show();
+    // $(".pt-1:nth-child(1) .tieude").removeClass("xuong");
+    // $(".pt-1 .tieude").click(function(){
+    //   $(".pt-1 .noidung").hide();
+    //   $(".pt-1 .tieude").addClass("xuong");
+    //   $(this).removeClass("xuong");
+    //   $(this).next().toggle();
+    // });
     $(window).scroll(function(){
         if($(window).scrollTop()>150)
         {
