@@ -196,6 +196,7 @@ header .bao .icons{
     color: var(--mauxanh);
     font-style: italic;
     height: fit-content;
+    font-size: 12px;
 }
 
 .main .khoi-tg {
@@ -281,10 +282,10 @@ header .bao .icons{
     font-size: 18px;
     border: 1px solid #cdcdcd;
     background-color: #F0F0EF;
-    background-image: url("toggle.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: -69px;
+    /* background-image: url("toggle.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    /* background-position-y: -69px; */
 }
 
 .xuong{
@@ -404,15 +405,12 @@ header .bao .icons{
 .main .khoi-1 .bao #san-pham .duoi {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .main .khoi-1 .bao #san-pham .duoi .anh1 {
     width: 32%;
-    height: 200px;
     padding: 10px;
     transition: 0.5s;
-    margin-top: 30px;
 }
 
 .main .khoi-1 .bao #san-pham .duoi .anh1 .a {
